@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4695843424577943747
+  m_GuidHigh: 13585871923729899945
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5243346362993825526
+      m_GuidHigh: 15150334599838325415
+    m_SerializedTextureGuid:
+      m_GuidLow: 16700639577393623236
+      m_GuidHigh: 5566709433667237720
+    m_Size: {x: 0.14428572, y: 0.101}
+    m_SpecifySize: 1
+    m_Name: Letter A
+    m_Texture: {fileID: 2800000, guid: 3c6070c49736e7c458378d79bcec404d, type: 3}

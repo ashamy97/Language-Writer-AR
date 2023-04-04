@@ -73,21 +73,15 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: 0.31, y: 1.37, z: 0}
-  - {x: 0.04, y: 1.55, z: 0}
-  - {x: -0.08, y: 1.55, z: 0}
-  - {x: -0.32, y: 1.55, z: 0}
-  - {x: -0.57, y: 1.34, z: 0}
-  - {x: -0.58, y: 0.99, z: 0}
-  - {x: -0.53, y: 0.81, z: 0}
-  - {x: -0.43, y: 0.45, z: 0}
-  - {x: -0.19, y: 0.09, z: 0}
-  - {x: 0.49, y: 0.09, z: 0}
-  - {x: 0.7, y: 0.58, z: 0}
-  - {x: 0.05, y: 0.73, z: 0}
+  - {x: 0.04, y: 0.01, z: 0.18}
+  - {x: -0.04, y: 0.01, z: 0.18}
+  - {x: -0.04, y: -0.09, z: 0.18}
+  - {x: 0.04, y: -0.09, z: 0.18}
+  - {x: 0.04, y: -0.06, z: 0.18}
+  - {x: 0, y: -0.06, z: 0.18}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.34
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
