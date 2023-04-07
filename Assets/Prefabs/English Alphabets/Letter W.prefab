@@ -32,6 +32,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Letter W
       objectReference: {fileID: 0}
+    - target: {fileID: 6906977490127282119, guid: 85adeb76add203842aa8bcd530b655ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Letter W
+      objectReference: {fileID: 0}
     - target: {fileID: 6906977490127282120, guid: 85adeb76add203842aa8bcd530b655ba,
         type: 3}
       propertyPath: m_RootOrder

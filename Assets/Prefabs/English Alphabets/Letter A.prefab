@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2535008501632143449}
   - component: {fileID: 2535008501632143446}
   - component: {fileID: 2535008501632143447}
+  - component: {fileID: 7346237014359952950}
   m_Layer: 0
   m_Name: Letter A
-  m_TagString: Untagged
+  m_TagString: Letter A
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,6 +146,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slash: {fileID: 2535008502063402747}
+--- !u!33 &7346237014359952950
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2535008501632143448}
+  m_Mesh: {fileID: -5495902117074765545, guid: de4da3906a001624fabcc7838ddf2eb4, type: 3}
 --- !u!1 &2535008502063402747
 GameObject:
   m_ObjectHideFlags: 0

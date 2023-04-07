@@ -23,9 +23,13 @@ public class LineAnimator : MonoBehaviour
         {
             linePoints[i] = lineRenderer.GetPosition(i);
         }
+        /*if (!this.gameObject.activeSelf)
+        {
+            this.gameObject.SetActive(true);
+            slash.SetActive(true);
+        }*/
 
-        StartCoroutine(AnimateLine());
-        StartCoroutine(AnimateSlash());
+        
     }
 
     private IEnumerator AnimateLine()
@@ -83,4 +87,14 @@ public class LineAnimator : MonoBehaviour
         
 
     }
+
+
+
+    public void reanimate()
+    {
+        StartCoroutine(AnimateLine());
+        StartCoroutine(AnimateSlash());
+    }
+
+    
 }

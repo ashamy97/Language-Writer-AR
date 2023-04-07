@@ -24,7 +24,7 @@ public class LineAnimator2 : MonoBehaviour
         }
 
         StartCoroutine(AnimateLine());
-        
+
     }
 
     private IEnumerator AnimateLine()
@@ -54,5 +54,10 @@ public class LineAnimator2 : MonoBehaviour
             }
         }
 
+    }
+
+    public void reaniamte()
+    {
+        StartCoroutine(AnimateLine());
     }
 }

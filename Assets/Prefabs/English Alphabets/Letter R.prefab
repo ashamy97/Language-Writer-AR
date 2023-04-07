@@ -201,6 +201,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Letter R
       objectReference: {fileID: 0}
+    - target: {fileID: 8020108860471855285, guid: 4337174555475f249941373b60bb923b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Letter R
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8020108860471855282, guid: 4337174555475f249941373b60bb923b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4337174555475f249941373b60bb923b, type: 3}

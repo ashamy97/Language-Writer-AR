@@ -27,11 +27,7 @@ public class LetterQAnimator : MonoBehaviour
             linePoints[i] = lineRenderer.GetPosition(i);
         }
 
-        StartCoroutine(AnimateLine());
-        StartCoroutine(AnimateSecondSlash());
-        StartCoroutine(AnimateThirdSlash());
-        StartCoroutine(AnimateFourthSlash());
-        StartCoroutine(AnimateFifthSlash());
+        
     }
 
     private IEnumerator AnimateLine()
@@ -169,5 +165,14 @@ public class LetterQAnimator : MonoBehaviour
         }
 
 
+    }
+
+    public void reanimate()
+    {
+        StartCoroutine(AnimateLine());
+        StartCoroutine(AnimateSecondSlash());
+        StartCoroutine(AnimateThirdSlash());
+        StartCoroutine(AnimateFourthSlash());
+        StartCoroutine(AnimateFifthSlash());
     }
 }
