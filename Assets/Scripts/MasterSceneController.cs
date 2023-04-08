@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MasterSceneController : MonoBehaviour
 {
+    LineAnimator lineAnimator;
     public void reanimate()
     {
         GameObject letterA = GameObject.FindGameObjectWithTag("Letter A");
@@ -15,4 +16,6 @@ public class MasterSceneController : MonoBehaviour
     {
         SceneManager.LoadScene("Letter Picker");
     }
+
+    
 }

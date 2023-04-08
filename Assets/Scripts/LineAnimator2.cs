@@ -23,7 +23,7 @@ public class LineAnimator2 : MonoBehaviour
             linePoints[i] = lineRenderer.GetPosition(i);
         }
 
-        StartCoroutine(AnimateLine());
+        
 
     }
 
@@ -56,7 +56,7 @@ public class LineAnimator2 : MonoBehaviour
 
     }
 
-    public void reaniamte()
+    public void reanimate()
     {
         StartCoroutine(AnimateLine());
     }
