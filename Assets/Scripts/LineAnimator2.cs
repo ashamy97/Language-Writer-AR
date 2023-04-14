@@ -23,7 +23,7 @@ public class LineAnimator2 : MonoBehaviour
             linePoints[i] = lineRenderer.GetPosition(i);
         }
 
-        
+        StartCoroutine(reanimate());
 
     }
 
@@ -56,8 +56,14 @@ public class LineAnimator2 : MonoBehaviour
 
     }
 
-    public void reanimate()
+   IEnumerator reanimate()
     {
-        StartCoroutine(AnimateLine());
+        for(; ; )
+        {
+            this.gameObject.GetComponent<AudioSource>().Play();
+            StartCoroutine(AnimateLine());
+            yield return new WaitForSeconds(10.0f);
+        }
+        
     }
 }

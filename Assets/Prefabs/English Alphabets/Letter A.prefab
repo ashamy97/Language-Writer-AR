@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7346237014359952950}
   m_Layer: 0
   m_Name: Letter A
-  m_TagString: Letter A
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,9 +75,9 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: -0.04, y: -0.09, z: 0.18}
-  - {x: 0, y: 0.01, z: 0.18}
-  - {x: 0.04, y: -0.09, z: 0.18}
+  - {x: -40, y: -19, z: 0.01}
+  - {x: 0, y: 150, z: 0.01}
+  - {x: 40, y: -19, z: 0.01}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.01
@@ -131,7 +131,7 @@ LineRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_UseWorldSpace: 1
+  m_UseWorldSpace: 0
   m_Loop: 0
 --- !u!114 &2535008501632143447
 MonoBehaviour:
@@ -226,8 +226,8 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: -0.02, y: -0.06, z: 0.18}
-  - {x: 0.02, y: -0.06, z: 0.18}
+  - {x: -20, y: 60, z: 0.01}
+  - {x: 20, y: 60, z: 0.01}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.01
@@ -281,5 +281,5 @@ LineRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_UseWorldSpace: 1
+  m_UseWorldSpace: 0
   m_Loop: 0

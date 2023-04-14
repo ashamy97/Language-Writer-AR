@@ -31,6 +31,7 @@ TagManager:
   - Letter X
   - Letter Y
   - Letter Z
+  - GameMusic
   layers:
   - Default
   - TransparentFX

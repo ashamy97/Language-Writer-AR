@@ -29,7 +29,7 @@ public class LineAnimator : MonoBehaviour
             slash.SetActive(true);
         }*/
 
-        
+        StartCoroutine(reanimate());
     }
 
     private IEnumerator AnimateLine()
@@ -88,12 +88,20 @@ public class LineAnimator : MonoBehaviour
 
     }
 
+    
 
 
-    public void reanimate()
+
+    IEnumerator reanimate()
     {
-        StartCoroutine(AnimateLine());
-        StartCoroutine(AnimateSlash());
+        for(; ; )
+        {
+            this.gameObject.GetComponent<AudioSource>().Play();
+            StartCoroutine(AnimateLine());
+            StartCoroutine(AnimateSlash());
+            yield return new WaitForSeconds(10.0f);
+        }   
+        
     }
 
     

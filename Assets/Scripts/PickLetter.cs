@@ -8,13 +8,13 @@ public class PickLetter : MonoBehaviour
     private GameObject letterToDisplay;
     AudioSource audioSource;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         letterToDisplay = englishLetter.transform.GetChild(LetterPickerScene.letter_to_focus).gameObject;
         letterToDisplay.SetActive(true);
     }
 
-    public void animate()
+    /*public void animate()
     {
         //0 is A (LA), 1 is B (LA2), 2 is C (LA2), 3 is D (LA2), 4 is E (LEA), 5 is F (LA), 6 is G (LA2),
         //7 is H (LEA), 8 is I (LEA), 9 is J (LJA), 10 is K (LEA), 11 is L (LA), 12 is M (LJA)
@@ -58,7 +58,7 @@ public class PickLetter : MonoBehaviour
     {
         audioSource = letterToDisplay.GetComponent<AudioSource>();
         audioSource.Play();
-    }
+    }*/
 
 
 }

@@ -25,7 +25,7 @@ public class LetterEAnimator : MonoBehaviour
             linePoints[i] = lineRenderer.GetPosition(i);
         }
 
-        
+        StartCoroutine(reanimate());
     }
 
     private IEnumerator AnimateLine()
@@ -111,10 +111,16 @@ public class LetterEAnimator : MonoBehaviour
 
     }
 
-    public void reanimate()
+    IEnumerator reanimate()
     {
-        StartCoroutine(AnimateLine());
-        StartCoroutine(AnimateSecondSlash());
-        StartCoroutine(AnimateThirdSlash());
+        for(; ; )
+        {
+            this.gameObject.GetComponent<AudioSource>().Play();
+            StartCoroutine(AnimateLine());
+            StartCoroutine(AnimateSecondSlash());
+            StartCoroutine(AnimateThirdSlash());
+            yield return new WaitForSeconds(10.0f);
+        }
+        
     }
 }

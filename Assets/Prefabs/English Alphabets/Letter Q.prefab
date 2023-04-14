@@ -144,7 +144,7 @@ PrefabInstance:
     - target: {fileID: 7743054193289078990, guid: b961fa23514f4f343bfb5c1710fcd23c,
         type: 3}
       propertyPath: m_TagString
-      value: Letter Q
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7743054193289078993, guid: b961fa23514f4f343bfb5c1710fcd23c,
         type: 3}
